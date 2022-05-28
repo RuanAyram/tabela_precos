@@ -5,7 +5,7 @@
   "main": "/assets/js/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RuanAyram/Ruan_LP.git"
+    "url": "git+https://github.com/RuanAyram/tabela_precos.git"
   },
   "keywords": [
     "ruankaylo",
@@ -20,8 +20,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RuanAyram/Ruan_LP/issues"
+    "url": "https://github.com/RuanAyram/tabela_precos/issues/issues"
   },
-  "homepage": "https://github.com/RuanAyram/Ruan_LP#readme",
-  "private": true
+  "homepage": "https://github.com/RuanAyram/tabela_precos#readme",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bulma": "^0.9.4",
+    "bulma-pageloader": "^0.3.0",
+    "bulma-pricingtable": "^0.2.0"
+  }
 }
