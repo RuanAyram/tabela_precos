@@ -1,0 +1,27 @@
+{
+  "name": "tabela_precos",
+  "version": "0.9.9",
+  "description": "Tabela de preços de servidores",
+  "main": "/assets/js/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuanAyram/Ruan_LP.git"
+  },
+  "keywords": [
+    "ruankaylo",
+    "pricingtable",
+    "tabela_precos",
+    "servidores",
+    "Ruan Kaylo"
+  ],
+  "author": {
+    "name": "Ruan Kaylo",
+    "url": "https://ruankaylo.netlify.app"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuanAyram/Ruan_LP/issues"
+  },
+  "homepage": "https://github.com/RuanAyram/Ruan_LP#readme",
+  "private": true
+}
