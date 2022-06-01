@@ -23,7 +23,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/images/tv-solid.svg" sizes="16x16" type="image/x-icon">
 
-  <title>◢ ◤ TR TV - Tabela de Preços ◢ ◤</title>
+  <title>◢ ◤ TR TV ◢ ◤</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122477877-1"></script>
@@ -41,67 +41,85 @@
 
 </head>
 <body onload="showPageloader()">
-  <section class="section">
-    <p class="has-text-centered" id="texto">Tabela de servidores!</p>
+  <section class="hero is-info is-fullheight">
+    <div class="hero-head">
+      <div class="container has-text-centered">
+        <p class="title">Tabela de preços</p>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">
+          ◢ ◤ TR TV ◢ ◤
+        </p>
+        <p class="subtitle">
+          <div class="container is-desktop is-mobile" id="container">
+            <div class="pricing-table">
+              <div class="pricing-plan">
+                <div class="plan-header">Servidor 1</div>
+                <div class="plan-items">
+                  <div class="plan-item">45 mil Conteúdos</div>
+                  <div class="plan-item">Suporte 24/7</div>
+                  <div class="plan-item">-</div>
+                  <div class="plan-item">-</div>
+                </div>
+                <div class="plan-footer">
+                  <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">R$</span>25</span>/mensal</div>
+                  <a class="button is-fullwidth btn_25" data-price="25" data-name="Servidor 1">Escolher</a>
+                </div>
+              </div>
+
+              <div class="pricing-plan is-active">
+                <div class="plan-header">Servidor 2</div>
+                <div class="plan-items">
+                  <div class="plan-item">130 mil Conteúdos</div>
+                  <div class="plan-item">Suporte 24/7</div>
+                  <div class="plan-item">1TB Bandwidth</div>
+                  <div class="plan-item">-</div>
+                </div>
+                <div class="plan-footer">
+                  <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">R$</span>30</span>/mensal</div>
+                  <a class="button is-fullwidth btn_30" data-price="30" data-name="Servidor 2">Escolher</a>
+                </div>
+              </div>
+
+              <div class="pricing-plan is-info">
+                <div class="plan-header">Servidor 3</div>
+                <div class="plan-items">
+                  <div class="plan-item">180 mil Conteúdos</div>
+                  <div class="plan-item">Suporte 24/7</div>
+                  <div class="plan-item">1TB Bandwidth</div>
+                  <div class="plan-item">100 Email Boxes</div>
+                </div>
+                <div class="plan-footer">
+                  <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">R$</span>35</span>/mensal</div>
+                  <a class="button is-fullwidth btn_35" data-price="35" data-name="Servidor 3">Escolher</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="content has-text-centered">
+        <a href="#">
+          <div class="chip">
+            <i class="fab fa-whatsapp" alt="Social"></i>
+            Whats App
+          </div>
+        </a>
+
+        <p class="copyright">
+          &copy; <span id="year"></span>.
+          Made with <i class="fa fa-heart icon_heart"></i> by <a href="https://ruankaylo.netlify.com/" target="_blank">Ruan</a>.
+        </p>
+      </div>
+    </div>
   </section>
-
-  <div class="container is-desktop is-mobile" id="container">
-    <div class="pricing-table is-horizontal">
-      <div class="pricing-plan">
-        <div class="plan-header">Starter</div>
-        <div class="plan-items">
-          <div class="plan-item">20GB Storage</div>
-          <div class="plan-item">100 Domains</div>
-          <div class="plan-item">-</div>
-          <div class="plan-item">-</div>
-        </div>
-        <div class="plan-footer">
-          <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>20</span>/month</div>
-          <button class="button is-fullwidth" disabled="disabled">Current plan</button>
-        </div>
-      </div>
-
-      <div class="pricing-plan is-active">
-        <div class="plan-header">Startups</div>
-        <div class="plan-items">
-          <div class="plan-item">20GB Storage</div>
-          <div class="plan-item">25 Domains</div>
-          <div class="plan-item">1TB Bandwidth</div>
-          <div class="plan-item">-</div>
-        </div>
-        <div class="plan-footer">
-          <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>40</span>/month</div>
-          <button class="button is-fullwidth">Choose</button>
-        </div>
-      </div>
-
-      <div class="pricing-plan is-info">
-        <div class="plan-header">Growing Team</div>
-        <div class="plan-items">
-          <div class="plan-item">200GB Storage</div>
-          <div class="plan-item">50 Domains</div>
-          <div class="plan-item">1TB Bandwidth</div>
-          <div class="plan-item">100 Email Boxes</div>
-        </div>
-        <div class="plan-footer">
-          <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>60</span>/month</div>
-          <button class="button is-fullwidth">Choose</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <div class="chip">
-        <i class="fab fa-whatsapp" alt="Social"></i>
-        Whats App
-      </div>
-    </div>
-  </footer>
 
   <div class="pageloader is-active"><span class="title">Aguarde...</span></div>
   <script type="text/javascript" src="assets/js/index.js"></script>
 
-</body>
+  </body>
 </html>

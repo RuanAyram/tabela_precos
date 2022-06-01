@@ -1,0 +1,5 @@
+TODO
+
+[] Adicionar links para whatsapp
+[] Ajustar textos das colunas
+[X] Inserir marca abaixo do text tabela
